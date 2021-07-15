@@ -7,7 +7,7 @@ from sklearn.linear_model import PassiveAggressiveClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 # load the data and check the shape
-df = pd.read_csv('D:\\Python_Projects\\Fake_News\\news.csv')
+df = pd.read_csv('D:\\Python_Projects\\Fake_News\\news.csv')  # NB. Change this directory to location of csv file
 print(df.shape)
 display(df.head())
 
